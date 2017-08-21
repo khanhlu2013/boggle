@@ -1,0 +1,68 @@
+th, td {
+    border: 2px solid #FFCA08;
+	text-align: left;
+	height: 30px;
+	background-color: white;
+	margin:0;
+}
+
+tfoot td{
+	background-color: #ACCEEC;
+}
+
+col.wordRecord{
+	width: 120px
+}
+
+table {
+	border: 2px solid #FFCA08;
+	border-spacing : 0px;
+}
+
+body {
+	text-align: center;
+	background-color: #F57921;
+}
+
+#wrap {
+	display: inline-block;
+}
+
+#board {
+	border: 4px solid #FFCA08;
+	padding:4px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-color: #398BD4;
+}
+
+#submitWord {
+	float: right;
+	background-color: white;
+	border:none;
+	border-radius: 4px;
+}
+
+#currentWordAndSubmit {
+	display: flex;                  /* establish flex container */
+	justify-content: space-between; /* switched from default (flex-start, see below) */
+	margin-top:20px;
+	margin-bottom:20px;	
+}
+
+.bold { 
+	font-weight: bold;
+}
+
+.boardButton { 
+   height:70px;
+   width:70px;
+   margin: 4px;
+   border:none;
+   background-color: white;
+   border-radius: 4px;
+}
+
+.boardButton.selected { 
+   background-color: #ACCEEC;
+}

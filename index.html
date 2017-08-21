@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boggle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="wrap">
+	<img src="logo.png">
+	<div id="board"></div>
+	<div id="currentWordAndSubmit">
+		<div>
+			<span class="bold">Current Word:</span>
+			<span id="currentWord"></span>			
+		</div>
+		<div>
+			<button id="submitWord">Submit Word</button>
+		</div>
+		
+	</div>
+
+	<table>
+		<col class="wordRecord" />
+		<thead>
+			<tr>
+				<th class="bold">Word</th>
+				<th class="bold">Score</th>
+			</tr>
+		</thead>
+		
+		<tfoot>
+			<tr>
+				<td class="bold">Total:</td>
+				<td id="totalScore" class="bold"></td>
+			</tr>
+		</tfoot>
+
+		<tbody id = "records">
+		</tbody>
+	</table>	
+</div>
+
+<script src="jquery.js"></script>
+<script src="models.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
